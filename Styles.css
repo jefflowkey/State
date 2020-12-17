@@ -1,0 +1,143 @@
+/* Master styles */
+body {
+    margin: 10px;
+    background-color: black;;
+    color:white; 
+    font-family: 'Crimson Text', serif;;
+}
+
+/* Top Nav Bar Styles */
+
+.full {
+    background: url("Images/Header.jpg");
+    height: 150px;
+    width: auto;
+    background-size: cover;
+    background-position:center;
+}
+
+.nav-bar {
+    display: flex;
+    justify-content: space-between;
+    padding: 30px;
+} 
+
+.nav-bar-left {
+    display: flex;
+}
+
+.nav-bar > .nav-bar-left > div {
+    margin: 30px;
+    font-size: 1em;
+    text-transform: uppercase; 
+}
+
+.nav-bar > .nav-bar-right > div {
+    text-transform: uppercase;
+    color: white;
+    margin: 20px;
+    font-size: larger;
+    
+}
+
+.nav-bar-link {
+    height: 20px;
+    border-bottom: 1px solid transparent;
+    transform: border-bottom 0.3s;
+}
+
+.nav-bar-link a {
+    color:ivory;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+.nav-bar-link:hover {
+    border-bottom: 1px solid black;
+}
+
+.nav-bar-link a:hover {
+    color:black;
+}
+
+.active-nav-bar-link {
+    border-bottom: 1px solid black;
+}
+
+.active-nav-bar-link a {
+    color:black !important;
+    font-weight: bolder;
+}
+
+/* homepage body */
+
+.home-body {
+    text-align: center;
+}
+
+h1 {
+    font-size: 40px;
+    text-align: left;
+}
+
+h2 {
+    color:deepskyblue;
+    text-align: left;
+    text-decoration: underline;
+}
+
+h3 {
+    color: deepskyblue;
+    text-decoration: underline;
+    font-size: 2rem;
+    text-align: left;
+}
+
+p {
+    font-size: 1em;
+    text-align: left;
+    font-size: 25px;
+}
+
+li {
+    font-size: larger;
+    text-align: left;
+}
+
+.content-part {
+    padding: 30px;
+    font-size: larger;
+}
+
+/* project page */
+
+h4 {
+    font-size: 60px;
+    text-align: center;
+    color: white;
+}
+
+/* bottom nav bar for contact */
+
+.nav-contact {
+    display:flex;
+    justify-content: space-between;
+    padding: 10px;
+    bottom: auto;
+}
+
+.nav-contact-link {
+   font-size: 3rem; 
+   position: relative;
+   margin: auto;   
+}
+
+.social-icon a {
+    text-decoration: none;
+    color: white;
+    transition: color 0.3s;  
+}
+
+.social-icon :hover {
+    color: deepskyblue;
+}
