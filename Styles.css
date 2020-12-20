@@ -13,7 +13,7 @@ body {
     height: 150px;
     width: auto;
     background-size: cover;
-    background-position:center;
+    background-position: top;
 }
 
 .nav-bar {
