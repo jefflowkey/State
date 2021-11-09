@@ -1,3 +1,9 @@
+@media screen and (orientation: portrait) {
+  #toolbar {
+    width: 100%;
+  }
+}
+
 /* Master styles */
 body {
     margin: 10px;
