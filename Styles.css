@@ -124,7 +124,7 @@ h4 {
     justify-content: space-between;
     padding: 10px;
     bottom: auto;
-    position: relative;
+    position: bottom;
 }
 
 .nav-contact-link {
@@ -149,4 +149,12 @@ a:link {
   background-color: transparent;
   text-decoration: none;
   text-align: center;
+}
+
+
+.project {
+    color: green;
+    text-decoration: underline;
+    font-size: 2rem;
+    text-align: left;
 }
