@@ -141,3 +141,10 @@ h4 {
 .social-icon :hover {
     color: deepskyblue;
 }
+
+.cv
+a:link {
+  color: green;
+  background-color: transparent;
+  text-decoration: none;
+}
