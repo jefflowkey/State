@@ -94,10 +94,8 @@ p {
     font-size: 20px;
 }
 
-ul {
-    
+ul {  
     list-style-position: inside; 
-    padding-left: 0;
 }
 
 li {
