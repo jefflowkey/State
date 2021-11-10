@@ -4,8 +4,6 @@ body {
     background-color: black;;
     color:white; 
     font-family: 'Crimson Text', serif;
-    flex-direction: column;
-    min-height: 100vh;
 }
 
 /* Top Nav Bar Styles */
@@ -172,5 +170,5 @@ a:link {
 
 footer{
     position:relative;
-    bottom:0;
+    bottom:auto;
 }
