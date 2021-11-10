@@ -169,6 +169,6 @@ a:link {
 }
 
 footer{
-    position:fixed;
+    position:relative;
     bottom:auto;
 }
