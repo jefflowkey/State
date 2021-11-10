@@ -97,12 +97,9 @@ p {
 ul {
     text-align: center;
     list-style: inside;
+    float: left;
 }
 
-li {
-    font-size: larger;
-    text-align: center;
-}
 
 .content-part {
     padding: 30px;
