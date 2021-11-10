@@ -126,12 +126,6 @@ h4 {
     color: white;
 }
 
-img {
-  width: 270px;
-  border: 1px dotted deepskyblue;
-}
-
-
 /* bottom nav bar for contact */
 
 .nav-contact {
@@ -176,6 +170,7 @@ a:link {
 
 .project {
     color: white;
+    border: 1px dotted deepskyblue;
     text-align: center;
     margin: 20px;
 }
