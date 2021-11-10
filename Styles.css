@@ -171,10 +171,10 @@ a:link {
 .project {
     color: white;
     border-style:solid; 
-    border-color:deepskyblue; 
+    border-color:white; 
     border-width:3px
     text-align: center;
-    margin: 20px;
+    margin: auto;
 }
 
 footer{ 
