@@ -131,8 +131,8 @@ h4 {
     display:flex;
     justify-content: space-between;
     padding: 10px;
-    bottom: auto;
-    position: bottom;
+    bottom: 0;
+    position: fixed;
 }
 
 .nav-contact-link {
@@ -174,4 +174,6 @@ a:link {
 
 footer{
     margin-top: auto;
+    position:fixed;
+    bottom:0;
 }
