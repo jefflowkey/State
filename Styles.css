@@ -133,7 +133,7 @@ h4 {
 
 .nav-contact-link {
    font-size: 2rem; 
-   position: bottom;
+   position: absolute;
    bottom: 0;
    margin: auto;
 }
@@ -169,7 +169,3 @@ a:link {
     margin: 20px;
 }
 
-footer{
-    position:relative;
-    bottom:auto;
-}
