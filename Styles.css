@@ -94,13 +94,14 @@ p {
     font-size: 20px;
 }
 
-ul {  
-    list-style-position: inside; 
+.list {
+    font-size: 1em;
+    text-align: center;
+    font-size: 20px;
 }
 
-li {
-    font-size: larger;
-    
+ul {  
+    list-style-position: inside; 
 }
 
 
