@@ -101,6 +101,11 @@ p {
     font-size: 20px;
 }
 
+ul {
+    text-align: center;
+    list-style: inside;
+}
+
 li {
     font-size: larger;
     text-align: center;
