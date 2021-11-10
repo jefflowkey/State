@@ -126,6 +126,12 @@ h4 {
     color: white;
 }
 
+img {
+  width: 270px;
+  border: 1px dotted deepskyblue;
+}
+
+
 /* bottom nav bar for contact */
 
 .nav-contact {
