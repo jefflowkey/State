@@ -131,8 +131,6 @@ h4 {
     display:flex;
     justify-content: space-between;
     padding: 10px;
-    bottom: 0;
-    position: relative;
 }
 
 .nav-contact-link {
