@@ -4,7 +4,7 @@ body {
     background-color: black;;
     color:white; 
     font-family: 'Crimson Text', serif;
-    min-height: 500vh;
+    min-height: 100vh;
     display: flex; 
     flex-direction: column;
 }
