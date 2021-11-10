@@ -133,8 +133,8 @@ h4 {
 
 .nav-contact-link {
    font-size: 2rem; 
-   position: absolute;
-   bottom: auto;
+   position: relative;
+   bottom: 0;
    margin: auto;
 }
 
