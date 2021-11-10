@@ -155,6 +155,11 @@ h4 {
     text-align: center;
 }
 
+.cv {
+    text-align: centre;
+    text-decoration: underline;
+}
+
 .cv
 a:link {
   color: yellow;
