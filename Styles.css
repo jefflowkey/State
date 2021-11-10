@@ -134,7 +134,7 @@ h4 {
 .nav-contact-link {
    font-size: 2rem; 
    position: absolute;
-   bottom: 0;
+   bottom: auto;
    margin: auto;
 }
 
