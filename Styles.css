@@ -149,7 +149,7 @@ h4 {
 
 .cv
 a:link {
-  color: green;
+  color: white;
   background-color: transparent;
   text-decoration: none;
   text-align: center;
@@ -157,7 +157,7 @@ a:link {
 
 
 .project {
-    color: green;
+    color: white;
     text-decoration: underline;
     font-size: 2rem;
     text-align: left;
