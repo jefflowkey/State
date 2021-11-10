@@ -24,17 +24,10 @@ body {
     justify-content: space-between;
     padding: 30px;
     text-align: center;
-} 
-
-.nav-bar-left {
-    display: flex;
-}
-
-.nav-bar > .nav-bar-left > div {
     margin: 30px;
     font-size: 1em;
-    text-transform: uppercase; 
-}
+    text-transform: uppercase;
+} 
 
 .nav-bar-link {
     height: 20px;
