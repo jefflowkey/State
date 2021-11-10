@@ -172,9 +172,10 @@ a:link {
     color: white;
     border-style:solid; 
     border-color:white; 
-    border-width:3px
+    border-width:2px
     text-align: center;
     margin: 0px;
+    padding: 30px;
 }
 
 footer{ 
