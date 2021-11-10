@@ -23,6 +23,7 @@ body {
     display: flex;
     justify-content: space-between;
     padding: 30px;
+    text-align: center;
 } 
 
 .nav-bar-left {
@@ -33,14 +34,6 @@ body {
     margin: 30px;
     font-size: 1em;
     text-transform: uppercase; 
-}
-
-.nav-bar > .nav-bar-right > div {
-    text-transform: uppercase;
-    color: white;
-    margin: 20px;
-    font-size: larger;
-    
 }
 
 .nav-bar-link {
@@ -80,12 +73,12 @@ body {
 
 h1 {
     font-size: 40px;
-    text-align: left;
+    text-align: center;
 }
 
 h2 {
     color:deepskyblue;
-    text-align: left;
+    text-align: center;
     text-decoration: underline;
 }
 
@@ -93,13 +86,13 @@ h3 {
     color: deepskyblue;
     text-decoration: underline;
     font-size: 2rem;
-    text-align: left;
+    text-align: center;
 }
 
 h4 {
     color: deepskyblue:
     font-size: 2rem;
-    text-align: left;
+    text-align: center;
 }
 
 p {
@@ -110,7 +103,7 @@ p {
 
 li {
     font-size: larger;
-    text-align: left;
+    text-align: center;
 }
 
 .content-part {
