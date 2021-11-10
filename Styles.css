@@ -134,7 +134,7 @@ h4 {
 .nav-contact-link {
    font-size: 2rem; 
    position: bottom;
-   margin: 0;
+   margin: auto;
 }
 
 .social-icon a {
@@ -169,6 +169,6 @@ a:link {
 }
 
 footer{
-    position:relative;
+    position:fixed;
     bottom:auto;
 }
