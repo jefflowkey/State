@@ -96,7 +96,8 @@ p {
 
 ul {
     text-align: center;
-    list-style-position: inside;   
+    list-style-position: inside; 
+    padding-left: 0;
 }
 
 li {
