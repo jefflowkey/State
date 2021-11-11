@@ -70,6 +70,7 @@ body {
 h1 {
     font-size: 40px;
     text-align: center;
+    color: deepskyblue;
 }
 
 h2 {
@@ -134,8 +135,8 @@ ul {
     text-align: centre;
 }
 
-.cv a:link {
-    color: yellow;
+.cv a {
+    color: deepskyblue;
     background-color: transparent;
     text-decoration: none;
     text-align: center;
