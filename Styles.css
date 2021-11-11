@@ -1,11 +1,12 @@
 /* Master styles */
+
 body {
     margin: 10px;
-    background-color: black;;
-    color:white; 
+    background-color: black;
+    color: white;
     font-family: 'Crimson Text', serif;
     min-height: 100vh;
-    display: flex; 
+    display: flex;
     flex-direction: column;
 }
 
@@ -21,22 +22,22 @@ body {
 
 .nav-bar {
     display: flex;
-    justify-content: space-between;
-    padding: 30px;
-    text-align: center;
-    margin: 30px;
-    font-size: 1em;
-    text-transform: uppercase;
-} 
+    justify-content: space-around;
+    padding: 38px;
+}
 
-.nav-bar-link {
-    height: 20px;
-    border-bottom: 1px solid transparent;
-    transform: border-bottom 0.3s;
+.nav-bar-left {
+    display: flex;
+    padding: 30px;
+}
+
+.nav-bar>.nav-bar-left>div {
+    margin-right: 20px;
+    font-size: 1em;
 }
 
 .nav-bar-link a {
-    color:ivory;
+    color: ivory;
     text-decoration: none;
     transition: color 0.3s;
 }
@@ -46,7 +47,7 @@ body {
 }
 
 .nav-bar-link a:hover {
-    color:black;
+    color: black;
 }
 
 .active-nav-bar-link {
@@ -54,9 +55,10 @@ body {
 }
 
 .active-nav-bar-link a {
-    color:black !important;
+    color: black !important;
     font-weight: bolder;
 }
+
 
 /* homepage body */
 
@@ -70,7 +72,7 @@ h1 {
 }
 
 h2 {
-    color:deepskyblue;
+    color: deepskyblue;
     text-align: center;
     text-decoration: underline;
 }
@@ -82,55 +84,41 @@ h3 {
     text-align: center;
 }
 
-h4 {
-    color: deepskyblue:
-    font-size: 2rem;
-    text-align: center;
-}
-
 p {
     font-size: 1em;
     text-align: center;
     font-size: 20px;
 }
 
-ul {  
-    list-style-position: inside; 
+ul {
+    list-style-position: inside;
 }
-
 
 .content-part {
     padding: 30px;
     font-size: larger;
 }
 
-/* project page */
-
-h4 {
-    font-size: 60px;
-    text-align: center;
-    color: white;
-}
 
 /* bottom nav bar for contact */
 
 .nav-contact {
-    display:flex;
+    display: flex;
     justify-content: space-between;
     padding: 10px;
 }
 
 .nav-contact-link {
-   font-size: 2rem; 
-   position: relative;
-   bottom: 0;
-   margin: auto;
+    font-size: 2rem;
+    position: relative;
+    bottom: 0;
+    margin: auto;
 }
 
 .social-icon a {
     text-decoration: none;
     color: white;
-    transition: color 0.3s;  
+    transition: color 0.3s;
 }
 
 .social-icon :hover {
@@ -145,21 +133,44 @@ h4 {
     text-align: centre;
 }
 
-.cv
-a:link {
-  color: yellow;
-  background-color: transparent;
-  text-decoration: none;
-  text-align: center;
+.cv a:link {
+    color: yellow;
+    background-color: transparent;
+    text-decoration: none;
+    text-align: center;
 }
 
 
-.project {
+/* project page */
+
+.to-do-list>.to-do-list-app {
     color: white;
     margin: 10px;
-    text-align: center;  
+    text-align: center;
+    padding: 10px;
+    text-decoration: none;
 }
 
-footer{ 
+.content>.header {
+    color: aqua;
+    font-size: 2em;
+}
+
+.content>.description {
+    color: grey;
+}
+
+
+/* about page */
+
+img {
+    border-radius: 50%;
+    padding: 30px;
+}
+
+
+/* all pages */
+
+footer {
     margin-top: auto;
- }
+}
