@@ -171,6 +171,16 @@ ul {
     color: grey;
 }
 
+/* project page For mobile */
+
+@media (max-width: 600px) {
+    .view {
+        margin-left: 2em;
+        margin-right: 2em;
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+}
 
 /* about page */
 
