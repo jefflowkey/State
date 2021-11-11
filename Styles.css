@@ -10,6 +10,7 @@ body {
     flex-direction: column;
 }
 
+
 /* Top Nav Bar Styles */
 
 .full {
@@ -142,6 +143,15 @@ ul {
 
 
 /* project page */
+
+.to-do-list {
+    border: 2px dashed white;
+    padding: 20px;
+    margin-left: 28em;
+    margin-right: 28em;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
 
 .to-do-list>.to-do-list-app {
     color: white;
