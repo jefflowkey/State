@@ -93,7 +93,9 @@ p {
 }
 
 ul {
-    list-style-position: inside;
+    text-align: center;
+    display: table;
+    margin: 0 auto;
 }
 
 .content-part {
