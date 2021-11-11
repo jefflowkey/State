@@ -98,9 +98,14 @@ ul {
     margin: 0 auto;
 }
 
+li {
+    text-align: left;
+}
+
 .content-part {
     padding: 30px;
     font-size: larger;
+    text-align: center;
 }
 
 
