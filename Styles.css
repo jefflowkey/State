@@ -170,6 +170,23 @@ li {
     text-decoration: none;
 }
 
+.game-mode {
+    border: 2px dashed white;
+    padding: 20px;
+    margin-left: 28em;
+    margin-right: 28em;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.game-mode>.js-game {
+     color: white;
+    margin: 10px;
+    text-align: center;
+    padding: 10px;
+    text-decoration: none;
+}
+    
 .content>.header {
     color: aqua;
     font-size: 2em;
