@@ -44,7 +44,7 @@ body {
 }
 
 .nav-bar-link:hover {
-    border-bottom: 1px solid black;
+    border-bottom: 2px solid black;
 }
 
 .nav-bar-link a:hover {
@@ -52,7 +52,7 @@ body {
 }
 
 .active-nav-bar-link {
-    border-bottom: 1px solid black;
+    border-bottom: 2px solid black;
 }
 
 .active-nav-bar-link a {
