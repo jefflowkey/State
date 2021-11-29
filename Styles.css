@@ -151,12 +151,14 @@ li {
 }
 
 
-/* project page */
+/* project page 
 
 .to-do-list {
     border: 2px dashed white;
     padding: 20px;
 }
+
+*/
 
 .to-do-list>.to-do-list-app {
     color: white;
@@ -205,7 +207,9 @@ footer {
 /* Devices -> mobile */
 
 @media only screen and (max-width: 600px) {
-    body {
+    .to-do-list {
+        border: 2px dashed white;
+        padding: 20px;
         margin-left: 2em;
         margin-right: 2em;
         margin-top: 10px;
