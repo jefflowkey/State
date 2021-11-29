@@ -156,10 +156,6 @@ li {
 .to-do-list {
     border: 2px dashed white;
     padding: 20px;
-    margin-left: 28em;
-    margin-right: 28em;
-    margin-top: 20px;
-    margin-bottom: 20px;
 }
 
 .to-do-list>.to-do-list-app {
@@ -173,10 +169,6 @@ li {
 .game-mode {
     border: 2px dashed white;
     padding: 20px;
-    margin-left: 28em;
-    margin-right: 28em;
-    margin-top: 20px;
-    margin-bottom: 20px;
 }
 
 .game-mode>.js-game {
@@ -196,17 +188,6 @@ li {
     color: grey;
 }
 
-/* project page For mobile */
-
-@media (max-width: 600px) {
-    .view {
-        margin-left: 2em;
-        margin-right: 2em;
-        margin-top: 10px;
-        margin-bottom: 10px;
-    }
-}
-
 /* about page */
 
 img {
@@ -219,4 +200,51 @@ img {
 
 footer {
     margin-top: auto;
+}
+
+/* Devices -> mobile */
+
+@media only screen and (max-width: 600px) {
+    body {
+        margin-left: 2em;
+        margin-right: 2em;
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+}
+
+
+/* Devices -> portrait tablets */
+
+@media only screen and (min-width: 600px) {
+    body {
+        margin-left: 10em;
+        margin-right: 10em;
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+}
+
+
+/* Devices -> landscape tablets */
+
+@media only screen and (min-width: 768px) {
+    body {
+        margin-left: 15em;
+        margin-right: 15em;
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+}
+
+
+/* Devices -> laptops/pc tablets */
+
+@media only screen and (min-width: 992px) {
+    body {
+        margin-left: 28em;
+        margin-right: 28em;
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
 }
