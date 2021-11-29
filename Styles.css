@@ -206,6 +206,7 @@ footer {
 
 @media only screen and (max-width: 600px) {
     body {
+        padding: 20px;
         margin-left: 2em;
         margin-right: 2em;
         margin-top: 10px;
@@ -218,6 +219,7 @@ footer {
 
 @media only screen and (min-width: 600px) {
     body {
+        padding: 20px;
         margin-left: 10em;
         margin-right: 10em;
         margin-top: 10px;
@@ -230,6 +232,7 @@ footer {
 
 @media only screen and (min-width: 768px) {
     body {
+        padding: 20px;
         margin-left: 15em;
         margin-right: 15em;
         margin-top: 10px;
@@ -242,6 +245,7 @@ footer {
 
 @media only screen and (min-width: 992px) {
     body {
+        padding: 20px;
         margin-left: 28em;
         margin-right: 28em;
         margin-top: 10px;
